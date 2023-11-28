@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-for chars1 in range(0,10):
-	for chars2 in range(chars1 + 1,10):
-		if chars1 == 8 and chars2 == 9:
-			print("{}{}".format(chars1, chars2))
-		else:
-			print("{}{}".format(char1, chars2), end=", ")
+
+for digit1 in range(0, 10):
+    for digit2 in range(digit1 + 1, 10):
+        if digit1 == 8 and digit2 == 9:
+            print("{}{}".format(digit1, digit2))
+        else:
+            print("{}{}".format(digit1, digit2), end=", ")
